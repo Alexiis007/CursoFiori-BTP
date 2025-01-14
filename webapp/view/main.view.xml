@@ -1,0 +1,7 @@
+<mvc:View controllerName="logaligroup.main.controller.main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <Label text="Hola Mundo"></Label>
+    </Page>
+</mvc:View>
