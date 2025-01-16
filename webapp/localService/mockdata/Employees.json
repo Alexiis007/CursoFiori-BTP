@@ -1,0 +1,60 @@
+{
+    "employeeId" : "",
+    "countryKey" : "",
+    "listCountry" : [
+        {
+            "key" : "US",
+            "text" : "United States"
+        },
+        {
+            "key" : "UK",
+            "text" : "United Kingdom"
+        },
+        {
+            "key" : "ES",
+            "text" : "Spain"
+        }
+    ],
+    "employees": [
+        {
+            "employeeId": "1",
+            "firstName": "John",
+            "lastName": "Doe",
+            "title": "Software Engineer",
+            "hireDate": "2015-02-01",
+            "country": "US",
+            "city": "New York",
+            "phone": "123-456-7890"
+        },
+        {
+            "employeeId": "2",
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "title": "Senior Developer",
+            "hireDate": "2012-07-15",
+            "country": "US",
+            "city": "Toronto",
+            "phone": "987-654-3210"
+        },
+        {
+            "employeeId": "3",
+            "firstName": "Michael",
+            "lastName": "Johnson",
+            "title": "Project Manager",
+            "hireDate": "2018-09-10",
+            "country": "UK",
+            "city": "London",
+            "phone": "555-111-2222"
+        },
+        {
+            "employeeId": "4",
+            "firstName": "Emily",
+            "lastName": "Davis",
+            "title": "HR Specialist",
+            "hireDate": "2016-03-22",
+            "country": "ES",
+            "city": "Sydney",
+            "phone": "555-333-4444"
+        }
+    ]
+}
