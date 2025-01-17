@@ -86,6 +86,14 @@ sap.ui.define([
             var oBinding = oList.getBinding("items");
             oBinding.filter("");
         },
+        showPostalCode(oEvent){
+            console.log("Boton presionado")
+            var itemPressed = oEvent.getSource();
+            var oContext = itemPressed.getBindingContext();
+            var objectContext = oContext.getObject();
+
+            sap.m.MessageToast.show(objectContext.title)
+        },
         OnValidate : myCheck
     });
 });
