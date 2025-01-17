@@ -77,9 +77,14 @@ sap.ui.define([
             oBinding.filter(filters);
         },
         onClearFilter(){
+            //Poner los valores vacios no me funciono
             var oModel = this.getView().getModel();
             oModel.setProperty("/employeeId", "");
             oModel.setProperty("/countryKey", "");
+            //En cambio poner el filtro de busqueda de la tabla en vacio si funciono.
+            var oList = this.byId("tableEmployee");
+            var oBinding = oList.getBinding("items");
+            oBinding.filter("");
         },
         OnValidate : myCheck
     });
